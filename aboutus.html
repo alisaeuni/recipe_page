@@ -1,0 +1,230 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ABELIDA</title>
+
+  <style>
+  
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: white;
+      padding: 20px;
+      background-image: url("https://jocyls.com/wp-content/uploads/2023/04/filipino-food.png");
+      background-size: 110%;
+      backdrop-filter: blur(2px);
+    }
+
+    .logo img{
+      width: auto;
+      height: 170px;
+      position: sticky;
+      top: 1px;
+      left: 40%;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: white;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 18px;
+      line-height: 1.8;
+      color: white;
+    }
+
+    .container {
+      width: 70%;
+      margin: 0 auto;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.795);
+      border-radius: 10px;
+      background-color: #333;
+    }
+
+    .btn {
+      background-color: #0077ff;
+      text-align: center;
+      color: #fff;
+      padding: 8px 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+    }
+
+    .btn:hover {
+      background-color: #3193ff;
+    }
+
+    ul {
+                    list-style: none;
+                    background-color: #333;
+                    text-align: center;
+                    position: sticky;
+                    top: 0%;
+                    margin-left: 6%;
+                    margin-right: 6%;
+                    margin-top: 2%;
+                    box-shadow: 2px 2px 8px black;
+                    z-index: 999;
+                }
+                ul li.contents {
+                    display: inline-block;
+                    position: relative;
+                    width: 30%;
+                    top: 0px;
+                }
+
+                ul li:hover  {
+                    background-color: #b2c59d;
+                }
+                
+                ul li a {
+                    display: block;
+                    padding: 20px 25px;
+                    font-size: 17px;
+                    color: white;
+                    text-decoration: none;
+                    text-align: center;
+                }
+
+                ul li ul.recipedropdown .recipeli{
+                    display: block; 
+                    background: #b2c59d; 
+                    position: relative;
+                    left: -50px;
+                    width: 155px;
+                    z-index: 999;
+                }
+                ul li ul.recipedropdown {
+                    width: 10px;
+                    background-color: transparent;
+                    position: absolute;
+                    top: 58px;
+                    display: none;
+                }
+
+                ul li:hover ul.recipedropdown {
+                    display: block;
+                }
+
+                ul li ul li.recipeli:hover {
+                    background-color: #95aa7f;
+                    
+                    
+                }
+
+                ul li ul.recipedropdown .recipeli ul{
+                    display: block; 
+                    position: absolute;
+                    left: 150px;
+                    width: 100px;              
+                    
+                }
+
+                ul li ul.recipedropdown li.recipeli ul {
+                    width: 100px;
+                    background-color: #e4e6c3;
+                    position: absolute;
+                    top: -4px;
+                    border-radius: 20px;
+                    display: none;
+                }   
+
+                ul li ul.recipedropdown li.recipeli ul a:hover {
+                    background-color: #b2c59d;
+                    border-radius: 20px;
+                    position: inherit;
+                    margin-left: -30px;
+                    font-weight: bold;
+                }
+                
+
+                .bymealsdrop a, .bycoursedrop a{
+                    width: 100%;
+                    position: relative;
+                    left: -40px;
+                    text-align: left;
+                    color: black;
+                }
+
+                ul li ul.recipedropdown li.recipeli:hover ul{
+                    display: block;
+                }
+
+                li.bymealsdrop:hover {
+                    background-color: #a0bd8d;
+                }
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="C:\Users\Chris\Downloads\Untitled71_20231213193521.png">
+  </div>
+
+  <ul>
+
+    <li class="contents"><a href="#recipe">Recipe &#x25BC;</a>
+        <ul class="recipedropdown">
+            <li class="recipeli"><a href="#">By Meals</a>
+                <ul class="bymealsdrop">                            
+                    <li><a href="#">Breakfast</a></li>
+                    <li><a href="#">Lunch</a></li>
+                    <li><a href="#">Dinner</a></li>
+                    <li><a href="#">Desserts</a></li>
+                    <li><a href="#">Appetizer</a></li>
+                    <li><a href="#">Drinks</a></li>
+                </ul>
+            </li>
+            <li class="recipeli"><a href="#">By Course</a>
+                <ul class="bycoursedrop">
+                    <li><a href="#">Appetizer</a></li>
+                    <li><a href="#">Soup</a></li>
+                    <li><a href="#">Snacks</a></li>
+                    <li><a href="#">Main Dish</a></li>
+                    <li><a href="#">Desserts</a></li>
+                    <li><a href="#">Noodles</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </li>
+    <li class="contents"><a href="#tips">Tips</a></li>
+    <li class="contents"><a href="#Suggestions">Suggestions</a></li>
+    <li class="contents"><a href="C:\Users\Chris\OneDrive\Documents\new_recipepage\aboutus.html">About Us</a></li>
+    <li class="contents"><a href="C:\Users\Chris\OneDrive\Documents\new_recipepage\homepage.html">Home</a></li>
+  </ul>
+
+
+
+
+
+  <div class="container">
+    <h1>About us</h1>
+    <hr color="orange">
+    <hr color="orange">
+    <br>
+    <p> Filipino food! Filipino cuisine is a melting pot of Asian and Western influences, with dishes that range from spicy to sweet and sour. Some iconic Filipino dishes include Adobo, Sinigang, Pancit, and LecheFlan. Filipino cuisine often features bold and savory flavors, as well as a variety of fresh tropical fruits. The best way to experience Filipino cuisine is by visiting the Philippines and trying traditional dishes at local restaurants
+    <br> <br>Filipino cuisine is one of the most diverse cuisines in the world, influenced by the country's unique geography and history.
+
+One of the most popular ingredients in Filipino cuisine is rice, which is used in many dishes.
+
+Filipino food often includes seafood such as fish, crabs, and shellfish, as well as pork and chicken dishes.
+
+Many popular traditional Filipino dishes have different variations which reflect the country's regional and cultural differences.
+<br><br>Filipino cuisine incorporates a lot of spices, herbs, and local ingredients, creating unique tastes and flavors.
+
+
+
+Characteristics. Filipino cuisine centres around the combination of sweet (tamis), sour (asim), and salty (alat), although in Bicol, the Cordilleras and among Muslim Filipinos, spicy (anghang) is a base of cooking flavor. </p>
